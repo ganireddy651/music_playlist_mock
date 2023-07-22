@@ -1,0 +1,44 @@
+.playlist-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.vide-details-container {
+  display: flex;
+  align-items: center;
+}
+.thumbnail {
+  height: 100px;
+  width: 150px;
+}
+.track-details-container {
+  margin-left: 20px;
+}
+.track-name {
+  color: #ffffff;
+  font-size: 16px;
+}
+.genre {
+  color: #3b82f6;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+.duration {
+  color: #ffffff;
+}
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+}
+.delete-icon {
+  color: #ffffff;
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+}
