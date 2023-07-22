@@ -131,7 +131,7 @@ class App extends Component {
             </div>
           ) : (
             <ul className="track-list-container">
-              {trackList.map(eachTrack => (
+              {searchResults.map(eachTrack => (
                 <Playlist
                   eachTrack={eachTrack}
                   deleteTrack={this.deleteTrack}
